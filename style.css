@@ -1,0 +1,59 @@
+h1 a {
+  color: #27b972;
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*styling hover*/
+.list-inline-item a {
+  color: rgb(84, 77, 77); /* Warna teks default */
+  text-decoration: none; /* Hilangkan garis bawah */
+  font-size: 1.3rem;
+}
+
+.list-inline-item a:hover {
+  color: white; /* Warna teks saat di-hover */
+  background-color: #27b972; /* Warna latar belakang saat di-hover */
+  border-radius: 3px; /* Efek sudut melingkar */
+  transition: all 0.1s ease; /* Animasi transisi */
+  padding: 3px 8px; /* Tambahkan padding untuk kenyamanan */
+}
+/*buat jarak pada header*/
+body {
+  padding-top: 120px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*responsive banner*/
+.banner-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner-img {
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .banner-img {
+    height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-img {
+    height: 480px;
+  }
+}
+
+.card {
+  height: 100%;
+}
+.card-img-top {
+  height: 300px; /* Mengatur tinggi gambar yang seragam */
+  object-fit: cover; /* Memastikan gambar menutupi area dengan proporsional */
+}
+
+.card-footer {
+  background-color: #eaeaea; /* Opsional: membuat background footer putih */
+}
